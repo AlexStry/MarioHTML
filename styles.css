@@ -1,0 +1,22 @@
+body {
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; 
+    background-color: #A7521D;
+}
+
+.top, .bottom {
+    flex: 1; 
+    width: 100%
+}
+
+.top {
+    background-repeat: repeat-x;
+    text-align: center;
+    background-image: url(img/mariobg.jpg);
+}
+
+.bottom {
+    text-align: center;
+    background-color: lightgreen; 
+}
